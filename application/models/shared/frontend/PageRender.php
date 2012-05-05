@@ -53,11 +53,8 @@ class PageRenderingHandler {
             $urlArgs .= '&data=' . serialize($args['data']);
         }
         
-        foreach ($args['featureGroup'] as $feature) {
-            $urlArgs .= "&feature={$feature}";
-            
-            $options[CURLOPT_POSTFIELDS] = $urlArgs;
-
+        foreach ($args['featureGroup'] as $feature) {            
+            $options[CURLOPT_POSTFIELDS] = $urlArgs . '&feature=' . $feature;
             $ch = curl_init(self::$_featureHandlerUrl);
             curl_setopt_array($ch, $options);
             curl_multi_add_handle($mh, $ch);
