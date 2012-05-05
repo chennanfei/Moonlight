@@ -1,0 +1,12 @@
+[2012-05-02T21:36:22+08:00] UCD_FATAL (1): exception 'Zend_Search_Lucene_Exception' with message 'Index doesn't exists in the specified directory.' in D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Search\Lucene.php:566
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Search\Lucene.php(225): Zend_Search_Lucene->__construct('D:\Program_File...', false)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(166): Zend_Search_Lucene::open('D:\Program_File...')
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(52): models\shared\search\SearchEngineService->retrieve(Array)
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#9 {main}

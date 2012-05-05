@@ -1,0 +1,224 @@
+[2012-05-01T09:41:58+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of $keyword is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(32): models\utils\UcdUtil::assert(NULL, '$keyword')
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#7 {main}
+[2012-05-01T09:41:58+08:00] UCD_FATAL (1): exception 'exceptions\UcdException' with message 'Value() of $keyword is empty.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php:38
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(32): models\utils\UcdUtil::assert(NULL, '$keyword')
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#7 {main}
+[2012-05-01T09:43:14+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of $keyword is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(32): models\utils\UcdUtil::assert(NULL, '$keyword')
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#7 {main}
+[2012-05-01T09:43:14+08:00] UCD_FATAL (1): exception 'exceptions\UcdException' with message 'Value() of $keyword is empty.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php:38
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(32): models\utils\UcdUtil::assert(NULL, '$keyword')
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#7 {main}
+[2012-05-01T09:43:51+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(119)"; [Message] => "The index path (D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application..//search_indexes/User) does not exist."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(38): models\shared\search\SearchEngineService->retrieve(Array)
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#7 {main}
+[2012-05-01T09:43:51+08:00] UCD_FATAL (1): exception 'exceptions\UcdException' with message 'The index path (D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application..//search_indexes/User) does not exist.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php:119
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(38): models\shared\search\SearchEngineService->retrieve(Array)
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#7 {main}
+[2012-05-01T10:30:47+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of $page is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(146): models\utils\UcdUtil::assert(NULL, '$page')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(141): models\shared\search\SearchEngineService->sliceResults(Array, NULL, 20)
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(44): models\shared\search\SearchEngineService->retrieve(Array)
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#9 {main}
+[2012-05-01T10:30:47+08:00] UCD_FATAL (1): exception 'exceptions\UcdException' with message 'Value() of $page is empty.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php:38
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(146): models\utils\UcdUtil::assert(NULL, '$page')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(141): models\shared\search\SearchEngineService->sliceResults(Array, NULL, 20)
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(44): models\shared\search\SearchEngineService->retrieve(Array)
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#9 {main}
+[2012-05-01T10:30:48+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of $page is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(146): models\utils\UcdUtil::assert(NULL, '$page')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(141): models\shared\search\SearchEngineService->sliceResults(Array, NULL, 20)
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(44): models\shared\search\SearchEngineService->retrieve(Array)
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#9 {main}
+[2012-05-01T10:30:48+08:00] UCD_FATAL (1): exception 'exceptions\UcdException' with message 'Value() of $page is empty.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php:38
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(146): models\utils\UcdUtil::assert(NULL, '$page')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(141): models\shared\search\SearchEngineService->sliceResults(Array, NULL, 20)
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(44): models\shared\search\SearchEngineService->retrieve(Array)
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->searchAction()
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('searchAction')
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#9 {main}
+[2012-05-01T12:07:03+08:00] UCD_FATAL (1): exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'content' cannot be null' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\DBAL\Statement.php:131
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\DBAL\Statement.php(131): PDOStatement->execute(NULL)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Persisters\BasicEntityPersister.php(239): Doctrine\DBAL\Statement->execute()
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\UnitOfWork.php(896): Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\UnitOfWork.php(304): Doctrine\ORM\UnitOfWork->executeInserts(Object(Doctrine\ORM\Mapping\ClassMetadata))
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\EntityManager.php(357): Doctrine\ORM\UnitOfWork->commit(NULL)
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(201): Doctrine\ORM\EntityManager->flush()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(52): models\shared\data\DatabaseService->save(Array)
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(99): models\shared\data\DatabaseService->create(Array)
+#8 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#9 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#10 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#14 {main}
+[2012-05-01T12:08:23+08:00] UCD_FATAL (1): exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'content' cannot be null' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\DBAL\Statement.php:131
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\DBAL\Statement.php(131): PDOStatement->execute(NULL)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Persisters\BasicEntityPersister.php(239): Doctrine\DBAL\Statement->execute()
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\UnitOfWork.php(896): Doctrine\ORM\Persisters\BasicEntityPersister->executeInserts()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\UnitOfWork.php(304): Doctrine\ORM\UnitOfWork->executeInserts(Object(Doctrine\ORM\Mapping\ClassMetadata))
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\EntityManager.php(357): Doctrine\ORM\UnitOfWork->commit(NULL)
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(201): Doctrine\ORM\EntityManager->flush()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(52): models\shared\data\DatabaseService->save(Array)
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(97): models\shared\data\DatabaseService->create(Array)
+#8 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#9 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#10 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#14 {main}
+[2012-05-01T12:12:02+08:00] UCD_FATAL (1): exception 'Zend_Controller_Action_Exception' with message 'Method "prepareTestData" does not exist and was not trapped in __call()' in D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php:488
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(104): Zend_Controller_Action->__call('prepareTestData', Array)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(104): IndexController->prepareTestData(100)
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#8 {main}
+[2012-05-01T21:52:28+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value(Array) of $criteria is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(42): models\utils\UcdUtil::assert(Array, '$criteria')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(101): models\utils\UcdUtil::assertArray(Array, '$criteria')
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(39): models\shared\data\DatabaseService->findEntityList('User', Array)
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(81): models\shared\search\SearchEngineService->buildIndexForEntity('User', Array)
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(70): IndexController->buildIndex()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#11 {main}
+[2012-05-01T21:52:28+08:00] UCD_FATAL (1): exception 'exceptions\UcdException' with message 'Value(Array) of $criteria is empty.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php:38
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(42): models\utils\UcdUtil::assert(Array, '$criteria')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(101): models\utils\UcdUtil::assertArray(Array, '$criteria')
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(39): models\shared\data\DatabaseService->findEntityList('User', Array)
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(81): models\shared\search\SearchEngineService->buildIndexForEntity('User', Array)
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(70): IndexController->buildIndex()
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#7 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#11 {main}
+[2012-05-01T22:32:59+08:00] UCD_FATAL (1): exception 'Doctrine\ORM\Query\QueryException' with message '[Semantical Error] line 0, col 15 near '0 rc limit 500,': Error: Class '0' is not defined.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\QueryException.php:47
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(413): Doctrine\ORM\Query\QueryException::semanticalError('line 0, col 15 ...')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(855): Doctrine\ORM\Query\Parser->semanticalError('Class '0' is no...', Array)
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(1466): Doctrine\ORM\Query\Parser->AbstractSchemaName()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(1404): Doctrine\ORM\Query\Parser->RangeVariableDeclaration()
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(1171): Doctrine\ORM\Query\Parser->IdentificationVariableDeclaration()
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(758): Doctrine\ORM\Query\Parser->FromClause()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(727): Doctrine\ORM\Query\Parser->SelectStatement()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(213): Doctrine\ORM\Query\Parser->QueryLanguage()
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(288): Doctrine\ORM\Query\Parser->getAST()
+#9 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query.php(230): Doctrine\ORM\Query\Parser->parse()
+#10 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query.php(241): Doctrine\ORM\Query->_parse()
+#11 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\AbstractQuery.php(733): Doctrine\ORM\Query->_doExecute()
+#12 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\AbstractQuery.php(535): Doctrine\ORM\AbstractQuery->execute(Array, 1)
+#13 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(78): Doctrine\ORM\AbstractQuery->getResult()
+#14 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(89): models\shared\data\DatabaseService->executeQuery('select rc from ...')
+#15 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(41): models\shared\search\SearchEngineService->getRecordsFromDatabase('User', 0)
+#16 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(81): models\shared\search\SearchEngineService->buildIndexForEntity('User', Array)
+#17 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(70): IndexController->buildIndex()
+#18 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#19 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#20 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#21 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#22 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#23 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#24 {main}
+[2012-05-01T22:33:59+08:00] UCD_FATAL (1): exception 'Doctrine\ORM\Query\QueryException' with message '[Syntax Error] line 0, col 40: Error: Expected end of string, got 'limit'' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\QueryException.php:42
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(380): Doctrine\ORM\Query\QueryException::syntaxError('line 0, col 40:...')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(745): Doctrine\ORM\Query\Parser->syntaxError('end of string')
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(213): Doctrine\ORM\Query\Parser->QueryLanguage()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query\Parser.php(288): Doctrine\ORM\Query\Parser->getAST()
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query.php(230): Doctrine\ORM\Query\Parser->parse()
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\Query.php(241): Doctrine\ORM\Query->_parse()
+#6 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\AbstractQuery.php(733): Doctrine\ORM\Query->_doExecute()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\library\Doctrine\ORM\AbstractQuery.php(535): Doctrine\ORM\AbstractQuery->execute(Array, 1)
+#8 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(78): Doctrine\ORM\AbstractQuery->getResult()
+#9 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(89): models\shared\data\DatabaseService->executeQuery('select rc from ...')
+#10 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(41): models\shared\search\SearchEngineService->getRecordsFromDatabase('User', 0)
+#11 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(81): models\shared\search\SearchEngineService->buildIndexForEntity('User', Array)
+#12 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(70): IndexController->buildIndex()
+#13 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->prepareAction()
+#14 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('prepareAction')
+#15 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#16 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#17 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#18 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(33): Zend_Application->run()
+#19 {main}
+[2012-05-01T23:30:58+08:00] UCD_INFO (8): start at: 500
+[2012-05-01T23:31:08+08:00] UCD_INFO (8): start at: 1000
+[2012-05-01T23:34:25+08:00] UCD_ERROR (10): start at: 500
+[2012-05-01T23:34:35+08:00] UCD_ERROR (10): start at: 1000
+[2012-05-01T23:41:32+08:00] UCD_INFO (8): start at: 500
+[2012-05-01T23:42:13+08:00] UCD_INFO (8): start at: 1000

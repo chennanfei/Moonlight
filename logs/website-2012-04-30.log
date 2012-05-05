@@ -1,0 +1,117 @@
+[2012-04-30T11:19:11+08:00] UCD_ERROR (10): exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (home)' in D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php:248
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#4 {main}
+[2012-04-30T11:19:24+08:00] UCD_ERROR (10): exception 'Zend_Controller_Action_Exception' with message 'Action "home" does not exist and was not trapped in __call()' in D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php:485
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(518): Zend_Controller_Action->__call('homeAction', Array)
+#1 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('homeAction')
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#6 {main}
+[2012-04-30T11:21:11+08:00] UCD_FATAL (1): exception 'Exception' with message 'D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/page_config/\views\page_config\GatewayPageConfig.php was not found.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageConfig.php:15
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageRender.php(29): models\shared\frontend\PageConfig::createConfig('gateway')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(26): models\shared\frontend\PageRenderingHandler::dispatch(Array)
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->homeAction()
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('homeAction')
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#8 {main}
+[2012-04-30T11:24:42+08:00] UCD_FATAL (1): exception 'Exception' with message 'D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\applicationviews\page_config\\views\page_config\GatewayPageConfig.php was not found.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageConfig.php:15
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageRender.php(29): models\shared\frontend\PageConfig::createConfig('gateway')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(26): models\shared\frontend\PageRenderingHandler::dispatch(Array)
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->homeAction()
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('homeAction')
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#8 {main}
+[2012-04-30T11:24:57+08:00] UCD_FATAL (1): exception 'Exception' with message 'D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\views\page_config\\views\page_config\GatewayPageConfig.php was not found.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageConfig.php:15
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageRender.php(29): models\shared\frontend\PageConfig::createConfig('gateway')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(26): models\shared\frontend\PageRenderingHandler::dispatch(Array)
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->homeAction()
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('homeAction')
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#8 {main}
+[2012-04-30T11:25:21+08:00] UCD_FATAL (1): exception 'Exception' with message 'D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\applicationiews\page_config\\views\page_config\GatewayPageConfig.php was not found.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageConfig.php:15
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageRender.php(29): models\shared\frontend\PageConfig::createConfig('gateway')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(26): models\shared\frontend\PageRenderingHandler::dispatch(Array)
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->homeAction()
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('homeAction')
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#8 {main}
+[2012-04-30T11:27:56+08:00] UCD_FATAL (1): exception 'Exception' with message 'D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/page_config/\views\page_config\GatewayPageConfig.php was not found.' in D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageConfig.php:15
+Stack trace:
+#0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\frontend\PageRender.php(29): models\shared\frontend\PageConfig::createConfig('gateway')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\controllers\IndexController.php(26): models\shared\frontend\PageRenderingHandler::dispatch(Array)
+#2 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Action.php(516): IndexController->homeAction()
+#3 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('homeAction')
+#4 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\Program_Files\Zend\ZendServer\ZendServer\share\ZendFramework\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\public\index.php(29): Zend_Application->run()
+#8 {main}
+[2012-04-30T11:41:02+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:41:02+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:41:05+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:41:05+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:41:05+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:41:05+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:42:22+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:42:22+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\/_/FeatureHandler.php was not found.
+[2012-04-30T11:46:29+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\_FeatureHandler.php was not found.
+[2012-04-30T11:46:29+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\_FeatureHandler.php was not found.
+[2012-04-30T11:47:49+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\GatewayFeatureHandler.php was not found.
+[2012-04-30T11:47:49+08:00] UCD_ERROR (10): D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application/views/handlers/\views\handlers\GatewayFeatureHandler.php was not found.
+[2012-04-30T11:48:55+08:00] UCD_ERROR (10): Method  for feature show_address was not found
+[2012-04-30T11:48:55+08:00] UCD_ERROR (10): Method  for feature show_name was not found
+[2012-04-30T11:51:35+08:00] UCD_ERROR (10): Method _ for feature show_name was not found
+[2012-04-30T11:51:35+08:00] UCD_ERROR (10): Method _ for feature show_address was not found
+[2012-04-30T11:53:46+08:00] UCD_ERROR (10): Method _ for feature show_name was not found
+[2012-04-30T11:53:46+08:00] UCD_ERROR (10): Method _ for feature show_address was not found
+[2012-04-30T18:25:13+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\base\BaseEntity.php(20)"; [Message] => "Getter (1 was not found."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(56): models\base\BaseEntity->getValue(true)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(19): models\shared\search\SearchEngineService->buildIndexForEntity('User')
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(24): SearchServiceTest->testBuildIndexing()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(28): SearchServiceTest::run()
+#4 C:\Users\Eric\AppData\Local\Temp\dummy.php(1): include('D:\Program_File...')
+#5 {main}
+[2012-04-30T18:26:34+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\base\BaseEntity.php(20)"; [Message] => "Getter (get1) was not found."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(56): models\base\BaseEntity->getValue(true)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(19): models\shared\search\SearchEngineService->buildIndexForEntity('User')
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(24): SearchServiceTest->testBuildIndexing()
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(28): SearchServiceTest::run()
+#4 C:\Users\Eric\AppData\Local\Temp\dummy.php(1): include('D:\Program_File...')
+#5 {main}
+[2012-04-30T18:29:48+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of Param is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\base\BaseEntity.php(16): models\utils\UcdUtil::assert(NULL, NULL)
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\base\BaseEntity.php(23): models\base\BaseEntity->getValue()
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(56): models\base\BaseEntity->getValue('value')
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(19): models\shared\search\SearchEngineService->buildIndexForEntity('User')
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(24): SearchServiceTest->testBuildIndexing()
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(28): SearchServiceTest::run()
+#6 C:\Users\Eric\AppData\Local\Temp\dummy.php(1): include('D:\Program_File...')
+#7 {main}
+[2012-04-30T18:30:27+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of $propName is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\base\BaseEntity.php(16): models\utils\UcdUtil::assert(NULL, '$propName')
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\base\BaseEntity.php(23): models\base\BaseEntity->getValue()
+#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchEngineService.php(56): models\base\BaseEntity->getValue('value')
+#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(19): models\shared\search\SearchEngineService->buildIndexForEntity('User')
+#4 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(24): SearchServiceTest->testBuildIndexing()
+#5 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(28): SearchServiceTest::run()
+#6 C:\Users\Eric\AppData\Local\Temp\dummy.php(1): include('D:\Program_File...')
+#7 {main}

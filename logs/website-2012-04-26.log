@@ -1,0 +1,4 @@
+[2012-04-26T23:59:32+08:00] UCD_ERROR (10): [Error code] => 10; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(61)"; [Message] => "Entity is not an instance of BaseObject"; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\data\DatabaseService.php(49): models\shared\data\DatabaseService->persist(Object(models\entities\User))
+#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\UserServiceTest.php(15): models\shared\data\DatabaseService->save(Object(models\entities\User))
+#2 C:\Users\Eric\AppData\Local\Temp\dummy.php(1): include('D:\Program_File...')
+#3 {main}
