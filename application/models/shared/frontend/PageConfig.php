@@ -28,7 +28,6 @@ abstract class PageConfig {
         assert(isset($this->featureGroupList));
 
         if (! array_key_exists($viewID, $this->featureGroupList)) {
-            $this->log->addError('View ID ' . $viewID . ' was not found.');
             $viewID = 'Error';
         }
         return $this->featureGroupList[$viewID];
