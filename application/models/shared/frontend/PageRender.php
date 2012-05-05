@@ -67,17 +67,17 @@ class PageRenderingHandler {
         }
         
         $running = null;
-		do {
-		    curl_multi_exec($mh, $running);
-		} while($running > 0);
-		
-		$contents = array();
-		foreach ($handlers as $ft => $ch) {
-		    $contents[$ft] = curl_multi_getcontent($ch);
-		    curl_multi_remove_handle($mh, $ch);
-		}
-		curl_multi_close($mh);
+	do {
+	    curl_multi_exec($mh, $running);
+	} while($running > 0);
+	
+	$contents = array();
+	foreach ($handlers as $ft => $ch) {
+	    $contents[$ft] = curl_multi_getcontent($ch);
+	    curl_multi_remove_handle($mh, $ch);
+	}
+	curl_multi_close($mh);
 
-		return $contents;
+	return $contents;
     }
 }
