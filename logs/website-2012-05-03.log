@@ -1,5 +1,0 @@
-[2012-05-03T23:50:20+08:00] UCD_ERROR (10): [Error code] => 1; [File] => "D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\utils\UcdUtil.php(38)"; [Message] => "Value() of $entityConfig is empty."; [Trace] => #0 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\application\models\shared\search\SearchConfiguration.php(33): models\utils\UcdUtil::assert(NULL, '$entityConfig')
-#1 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(46): application\models\shared\search\SearchConfiguration->getEntityConfig('User')
-#2 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(53): SearchServiceTest->testSearchConfig()
-#3 D:\Program_Files\Zend\ZendServer\Apache2\htdocs\secondZend\tests\auto\SearchServiceTest.php(58): SearchServiceTest::run()
-#4 {main}
