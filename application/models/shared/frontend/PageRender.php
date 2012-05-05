@@ -10,13 +10,13 @@ class PageRenderingHandler {
     private static $_featureHandlerUrl = 'http://localhost/Moonlight/public/framework/index';
 
     private static $_handleOptions = array(
-		CURLOPT_AUTOREFERER => 1,
-		CURLOPT_HEADER => 0,
-		CURLOPT_MAXREDIRS => 3,
-		CURLOPT_POST => 0,
-		CURLOPT_RETURNTRANSFER => 1,
-		CURLOPT_USERAGENT => 'UCD_PARALLEL_WORKDER',
-	);
+	CURLOPT_AUTOREFERER => 1,
+	CURLOPT_HEADER => 0,
+	CURLOPT_MAXREDIRS => 3,
+	CURLOPT_POST => 0,
+	CURLOPT_RETURNTRANSFER => 1,
+	CURLOPT_USERAGENT => 'UCD_PARALLEL_WORKDER',
+    );
     
     static function dispatch($args) {
         assert(is_array($args));
